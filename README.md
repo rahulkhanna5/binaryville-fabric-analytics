@@ -28,4 +28,17 @@ An end-to-end data engineering and analytics project for **Binaryville**, a mult
 | Ingestion | Ingest_Customer_data, Ingest_Orders_data, Ingest_Products_data |
 | Serving | Gold_Semantic |
 
-More detail is added in the docs/ and notebooks/ folders.
+## Documentation
+
+- [Architecture](docs/architecture.md): layers, pipelines, notebooks and serving
+- [Data model](docs/data-model.md): bronze, silver and gold schemas and business rules
+- [Incremental load](docs/incremental-load.md): watermark and MERGE pattern for bronze to silver
+
+## Code
+
+- [notebooks/silver_orders_load.sql](notebooks/silver_orders_load.sql): silver orders incremental load
+- [notebooks/gold_aggregations.sql](notebooks/gold_aggregations.sql): gold daily and category sales
+
+## Author
+
+Rahul Khanna: [LinkedIn](https://www.linkedin.com/in/rahul-khannaa/) · [GitHub](https://github.com/rahulkhanna5)
